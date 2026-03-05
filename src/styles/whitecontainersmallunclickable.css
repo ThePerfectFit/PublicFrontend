@@ -1,0 +1,19 @@
+.white-container-small-unclickable {
+  width: 272px;
+  height: 204px;
+  background-color: #FFFFFF;
+  border: 2px solid #730714;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 5px auto;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.white-container-small-unclickable.selected {
+  border-color: #730714;
+  box-shadow: 4px 4px 12px #730714;
+}

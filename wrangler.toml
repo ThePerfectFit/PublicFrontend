@@ -1,0 +1,5 @@
+name = "perfect-fit-app"
+compatibility_date = "2025-04-20"
+assets = { directory = "build"}
+workers_dev = false
+route   = "theperfectfit.app/*"

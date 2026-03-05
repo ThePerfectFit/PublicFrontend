@@ -1,0 +1,52 @@
+.secondary-button {
+  background-color: white;
+  color: #730714;
+  border: 1px solid  #730714;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0px;
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  margin-right: 15px;
+}
+
+.secondary-button:hover,
+.secondary-button:active {
+  background-color: white;
+  color: #730714;
+  border-color: #730714;
+  box-shadow: 4px 4px 8px #730714;
+}
+
+.secondary-button.active {
+  background-color: #730714;
+  color: white;
+  border-color: #730714;
+  box-shadow: 4px 4px 8px #730714;
+}
+
+
+.shape-button {
+  background-color: white;
+  color: #730714;
+  border: 2px solid #730714;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.shape-button:hover {
+  background-color: white;
+  color:#730714;
+  border-color: #730714;
+  box-shadow: 4px 4px 8px #730714;
+}
+
+.shape-button.selected {
+  background-color: #730714;
+  color: white;
+  border-color: #730714;
+  box-shadow: 4px 4px 8px #730714;
+}

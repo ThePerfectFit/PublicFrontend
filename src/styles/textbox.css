@@ -1,0 +1,17 @@
+.text-box {
+  background-color: white;
+  color: #AF737A;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  transition: border-color 0.3s ease;
+  text-align: center;
+}
+
+.text-box:focus {
+  border-color: black;
+  outline: none;
+}

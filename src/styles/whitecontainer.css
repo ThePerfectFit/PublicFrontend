@@ -1,0 +1,31 @@
+.white-container {
+  width: 272px;
+  height: 288px;
+  background-color: #FFFFFF;
+  border: 2px solid #730714;
+  box-shadow: 0px 4px 8px rgba(115, 7, 20, 0.1);
+  margin: 5px auto;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.white-container:hover {
+  box-shadow: 4px 4px 12px #730714;
+}
+
+.white-container.selected {
+  background-color: #730714;
+  color: white;
+  box-shadow: 4px 4px 12px #730714;
+  border: 2px solid #730714;
+}
+
+.white-container.selected .bold-shape-text-bold,
+.white-container.selected .bold-shape-text {
+  color: white;
+}

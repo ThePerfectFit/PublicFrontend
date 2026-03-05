@@ -1,0 +1,36 @@
+.bottom-navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #730714;
+  padding: 10px 0;
+  z-index: 1000;
+  border-top: 2px solid #F7EDE2;
+}
+
+.bottom-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-links a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.bottom-links a:hover {
+  color: #F7EDE2;
+}
+
+.bottom-links a.active {
+  border-top: 2px solid white;
+  padding-top: 4px;
+}
